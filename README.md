@@ -3,7 +3,7 @@
 <a href = test_ml2/AppDelegate.swift> Code here </a>
 
 var allProducts = [
-    Product(id:1,   name: "Meet"),
+    Product(id:1,   name: "Maet"),
     Product(id:2,   name: "Coca"),
     Product(id:3,   name: "Pepsi"),
     Product(id:4,   name: "Beer"),
@@ -17,8 +17,8 @@ var allProducts = [
 ] 
 
 var allChecks = [
-    Check(id: 1, products: [Product(id: 1, name: "Meet"), Product(id:2, name: "Coca")]),
-    Check(id: 2, products: [Product(id: 1, name: "Meet"), Product(id:2, name: "Coca"), Product(id:7, name: "Doshirak")]),
+    Check(id: 1, products: [Product(id: 1, name: "Meat"), Product(id:2, name: "Coca")]),
+    Check(id: 2, products: [Product(id: 1, name: "Meat"), Product(id:2, name: "Coca"), Product(id:7, name: "Doshirak")]),
     Check(id: 3, products: [Product(id:2, name: "Coca"), Product(id:6, name: "Chocolate")])
 ]
 
