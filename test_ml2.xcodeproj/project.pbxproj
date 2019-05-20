@@ -13,6 +13,9 @@
 		A5E7F14F2290362700F920E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5E7F14D2290362700F920E2 /* Main.storyboard */; };
 		A5E7F15B2290362700F920E2 /* test_ml2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7F15A2290362700F920E2 /* test_ml2Tests.swift */; };
 		A5E7F1662290362700F920E2 /* test_ml2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E7F1652290362700F920E2 /* test_ml2UITests.swift */; };
+		A5E7F17522910EA500F920E2 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E7F17422910EA500F920E2 /* CoreML.framework */; };
+		A5E7F17722910EB000F920E2 /* libswiftCreateML.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E7F17622910EB000F920E2 /* libswiftCreateML.dylib */; };
+		A5E7F17F22912F7300F920E2 /* ProductsMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A5E7F17E22912F7300F920E2 /* ProductsMLModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		A5E7F1612290362700F920E2 /* test_ml2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_ml2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5E7F1652290362700F920E2 /* test_ml2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ml2UITests.swift; sourceTree = "<group>"; };
 		A5E7F1672290362700F920E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5E7F17422910EA500F920E2 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		A5E7F17622910EB000F920E2 /* libswiftCreateML.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswiftCreateML.dylib; path = Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/libswiftCreateML.dylib; sourceTree = DEVELOPER_DIR; };
+		A5E7F17E22912F7300F920E2 /* ProductsMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ProductsMLModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E7F17722910EB000F920E2 /* libswiftCreateML.dylib in Frameworks */,
+				A5E7F17522910EA500F920E2 /* CoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +88,7 @@
 				A5E7F1592290362700F920E2 /* test_ml2Tests */,
 				A5E7F1642290362700F920E2 /* test_ml2UITests */,
 				A5E7F1452290362100F920E2 /* Products */,
+				A5E7F17322910EA500F920E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +105,7 @@
 		A5E7F1462290362100F920E2 /* test_ml2 */ = {
 			isa = PBXGroup;
 			children = (
+				A5E7F17E22912F7300F920E2 /* ProductsMLModel.mlmodel */,
 				A5E7F1472290362100F920E2 /* AppDelegate.swift */,
 				A5E7F1492290362100F920E2 /* ViewController.swift */,
 				A5E7F14B2290362700F920E2 /* Assets.xcassets */,
@@ -122,6 +132,15 @@
 				A5E7F1672290362700F920E2 /* Info.plist */,
 			);
 			path = test_ml2UITests;
+			sourceTree = "<group>";
+		};
+		A5E7F17322910EA500F920E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5E7F17622910EB000F920E2 /* libswiftCreateML.dylib */,
+				A5E7F17422910EA500F920E2 /* CoreML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E7F17F22912F7300F920E2 /* ProductsMLModel.mlmodel in Sources */,
 				A5E7F14A2290362100F920E2 /* ViewController.swift in Sources */,
 				A5E7F1482290362100F920E2 /* AppDelegate.swift in Sources */,
 			);
