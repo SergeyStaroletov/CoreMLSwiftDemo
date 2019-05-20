@@ -1,6 +1,6 @@
 //
 //
-//  Predict a corresponding product for retail bills
+//  Predict a corresponding product for retail receipts
 //
 //  Created by Sergey Staroletov on 18/05/2019.
 //  Copyright © 2019 Sergey Staroletov. All rights reserved.
@@ -11,7 +11,7 @@ import CreateML
 import CoreML
 
 
-//Bill (check) structure, it consists products
+//Receipt (check) structure, it consists products
 struct Check {
     var id: Int
     var products: [Product]
