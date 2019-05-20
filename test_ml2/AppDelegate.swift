@@ -129,7 +129,7 @@ func train() {
 
 func detect() {
     
-    let checkToTest = Check(id: 2, products: [Product(id: 1, name: "Meet"), Product(id:7, name: "Doshirak")])
+    let checkToTest = Check(id: 2, products: [Product(id: 1, name: "Meat"), Product(id:7, name: "Doshirak")])
     
     print("Hello, Core ML!")
     
