@@ -24,32 +24,59 @@ var allChecks = [
 
 
 found vector of existances:
+
 [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] 
+
 augmentation...
+
 [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 1
+
 [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 2
+
 found vector of existances:
+
 [1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
 augmentation...
+
 [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 1
+
 [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 2
+
 [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 7
+
 found vector of existances:
+
 [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
 augmentation...
+
 [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 2
+
 [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] -> 6
 
 
 Hello, Core ML!
+
 checking of prediction of the check:
+
 Check(id: 2, products: [test_ml2.Product(id: 1, name: Optional("Meet")), test_ml2.Product(id: 7, name: Optional("Doshirak"))])
+
 found binary (string) shape of this:
+
 10000010000000000000
+
+
 Model predicted linked product:  Coca
 
+
 Found probabilities: 
+
 product:  Doshirak  ->  0.05500002309187479
+
 product:  Coca  ->  0.8219056107743803
+
 product:  Meet  ->  0.06432191996016502
+
 product:  Chocolate  ->  0.058772446173580024
+
