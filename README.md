@@ -76,7 +76,7 @@ product:  Doshirak  ->  0.05500002309187479
 
 product:  Coca  ->  0.8219056107743803
 
-product:  Meet  ->  0.06432191996016502
+product:  Meat  ->  0.06432191996016502
 
 product:  Chocolate  ->  0.058772446173580024
 
