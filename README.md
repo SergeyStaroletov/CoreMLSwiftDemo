@@ -60,7 +60,7 @@ Hello, Core ML!
 
 checking of prediction of the check:
 
-Check(id: 2, products: [test_ml2.Product(id: 1, name: Optional("Meet")), test_ml2.Product(id: 7, name: Optional("Doshirak"))])
+Check(id: 2, products: [test_ml2.Product(id: 1, name: Optional("Meat")), test_ml2.Product(id: 7, name: Optional("Doshirak"))])
 
 found binary (string) shape of this:
 
