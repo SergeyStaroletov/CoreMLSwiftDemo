@@ -3,7 +3,7 @@
 <a href = test_ml2/AppDelegate.swift> Code here </a>
 
 var allProducts = [
-    Product(id:1,   name: "Maet"),
+    Product(id:1,   name: "Meat"),
     Product(id:2,   name: "Coca"),
     Product(id:3,   name: "Pepsi"),
     Product(id:4,   name: "Beer"),
