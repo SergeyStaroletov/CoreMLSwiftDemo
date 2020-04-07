@@ -1,6 +1,6 @@
 # CoreML Swift Demo
 
-Just a help to my student with a hackaton task
+Just a help to my student with a hackathon task
 
 <a href = test_ml2/AppDelegate.swift> Code here </a>
 
